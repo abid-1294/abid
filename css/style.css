@@ -1,0 +1,639 @@
+/* -------common css START--------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+
+/* -------common css END--------- */
+
+
+
+
+        /* -------------banner Css Start------------ */
+
+
+#banner{
+    background: url(../images/Banner.png);
+    padding: 315px 175px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+#banner::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.60);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.banner_heading{
+    font-size: 75px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    line-height: 90px;
+    word-wrap: break-word;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 950px;
+}
+.banner_text p{
+    color: white;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    width: 621px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.banner_btn{
+    margin: 0 auto;
+    width: 197px;
+    height: 56px;
+    background: var(--primary-color);
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.banner_btn a{
+    color: white;
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word;
+    padding: 18px 40px;
+}
+
+.banner_slide{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 46%;
+}
+
+.banner_slidebtn{
+    width: 24px;
+    height: 24px;
+    background-color: #4756DF;
+    border-radius: 60%;
+    margin-left: 5px;
+}
+.banner_slidebtn:hover{
+    border: white 5px solid;
+    transition: all linear 0.1s;
+}
+
+
+
+        /* -------------banner Css End------------ */
+
+
+
+
+/* --------Status CSS Start------------ */
+
+#status{
+    padding-top: 170px;
+    padding-bottom: 150px;
+}
+
+.status_zone{
+    background: #E0FFF9;
+    padding-top: 70px;
+    padding-bottom: 86px;
+    border-radius: 20px;
+}
+.status_left_part{
+    margin-left: 50px;
+}
+.status_left_part p{
+    color: var(--primary-color);
+    font-size: 25px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    line-height: 30px;
+    word-wrap: break-word;
+    
+}
+
+.status_left_part h2{
+    color: #151515;
+    font-size: 35px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    word-wrap: break-word;
+    width: 387px;;
+    line-height: 42px;
+    margin-top: 15px;
+}
+
+.status_customer_satisfied{
+    margin-left: 100px;
+}
+
+.status_customer_satisfied h2{
+    color: #151515;
+    font-size: 50px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    word-wrap: break-word
+}
+.status_customer_satisfied p{
+  
+    color: #737373;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+/* --------Status CSS END------------ */
+
+
+
+
+/* --------Service CSS Start------------ */
+
+#service{
+    padding-bottom: 150px;
+}
+
+#service h1{
+    color: #151515;
+    font-size: 45px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+}
+.service_text p{
+    color: #737373;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    width: 610px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.service_webdesign{
+    width: 424px;
+    height: 428px;
+    background: white;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 45px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 25px;
+}
+.service_webdesign:hover{
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    transition: all linear 0.5s;
+}
+
+.service_webdesign h3{
+    color: #151515;
+    font-size: 25px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+.service_webdesign p {
+    color: #737373;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    width: 326px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+/* --------Service CSS END------------ */
+
+
+
+
+/* --------WORK CSS START------------ */
+#work{
+    padding: 100px;
+    background: #F3F3F3;
+}
+
+#work h1{
+    color: #151515;
+    font-size: 45px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+}
+.work_text p{
+    color: #737373;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    width: 610px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.task_webdesign{
+    width: 424px;
+    height: 460px;
+    border-radius: 20px;
+    background: white;
+    margin-bottom: 25px;
+    margin-top: 105px;
+}
+
+.task_img{
+    border-radius: 20px;
+}
+.task_webdesign h2{
+    color: #151515;
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.task_webdesign p{
+    color: #737373;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    width: 340px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+/* --------WORK CSS END------------ */
+
+
+
+/* --------CHOOSE CSS START------------ */
+
+#choose{
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+#choose h1{
+    color: #151515;
+    font-size: 45px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+    width: 518px;
+    margin: 0 auto;
+    line-height: 52px;
+}
+.choose_text p{
+    color: #737373;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    width: 802px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.choose_ideas{
+    margin-top: 130px;
+}
+
+.innovative h4{
+    color: #151515;
+    font-size: 25px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.innovative p{
+    color: #737373;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    width: 344px;
+}
+
+.dedicated h4{
+    color: #151515;
+    font-size: 25px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.dedicated p{
+    color: #737373;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    width: 344px;
+}
+
+/* --------CHOOSE CSS END------------ */
+
+
+
+
+
+/* --------REVIEWS CSS START------------ */
+
+#reviews{
+    padding-bottom: 220px;
+}
+
+#reviews h3{
+    color: #151515;
+    font-size: 45px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+}
+.reviews_text p{
+    color: #737373;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    width: 610px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.reviewspople{
+    margin-top: 130px;
+}
+
+.firstperson{
+    padding: 54px 58px;
+    border-radius: 30px;
+}
+.firstperson:hover{
+    background: #F4EFEF;
+    transition: all linear 0.5s;
+}
+.firstperson p{
+    color: #7B7B7B;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    margin: 20px 0;
+}
+
+.firstperson .icon i{
+    color: #F9BD2C;
+}
+
+.profilepart{
+    display: flex;
+    margin-top: 32px;
+}
+.profile{
+    margin-left: 20px;
+}
+.name{
+    color: #232323;
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+.profession{
+    color: #7B7B7B;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+}
+
+/* --------REVIEWS CSS END------------ */
+
+
+
+/* --------Quote CSS START------------ */
+
+#quote{
+    padding: 150px 0;
+    background: #F3F3F3;
+}
+.quote_description{
+    margin-top: 177px;
+}
+.quote_description h2{
+    color: #151515;
+    font-size: 45px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    word-wrap: break-word;
+    width: 470px;
+    line-height: 54px;
+}
+.quote_description p{
+     color: #7B7B7B;
+     font-size: 16px;
+     font-family: var(--primary-font);
+     font-weight: 400;
+     line-height: 26px;
+     word-wrap: break-word;
+     width: 514px;
+     line-height: 26px;
+     margin-top: 20px;
+     margin-bottom: 10px;
+}
+.quote_description p1{
+    color: #7B7B7B;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    width: 514px;
+    line-height: 26px;
+}
+
+.quoteform{
+    padding: 60px 43px;
+    width: 536px;
+    background: #FFFFFF;
+    height: 622px;
+    border-radius: 20px;
+    margin-left: 146px;
+}
+
+.quoteform form h3{
+    text-align: center;
+    color: #151515;
+    font-size: 30px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-bottom:30px;
+}
+.form-label{
+    color: #151515;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 500;
+    line-height: 26px;
+    word-wrap: break-word;
+}
+.quoteform input{
+    width: 450px;
+    height: 64px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.quoteform form .btn-primary{
+    color: white;
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word;
+    width: 100%;
+    background: var(--primary-color);
+    margin-top: 30px;
+}
+
+/* --------Quote CSS END------------ */
+
+
+
+
+
+/* --------Footer CSS START------------ */
+
+#footer{
+    padding-top: 150px;
+    padding-bottom: 33px;
+    background: white;
+}
+
+.footer_text p{
+    color: #7B7B7B;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    margin-top: 30px;
+}
+.about{
+    margin-left: 76px;
+
+}
+.about p{
+    color: #151515;
+    font-size: 20px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.aboutlist{
+    margin-top: 40px;
+}
+.aboutlist li{
+   margin-bottom: 20px;
+    color: #7B7B7B;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+.about ul,ol{
+    padding: 0;
+}
+
+.straightline{
+   width: 100%;
+   border: 0.50px #E8E8E8 solid;
+   margin-top: 50px;
+   margin-bottom: 33px;
+
+}
+.copyrighttext{
+    text-align: center;
+}
+
+.copyrighttext a{
+    color: #D0D0D0;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    
+}
+
+
+
+
+
+/* --------Footer CSS END------------ */
